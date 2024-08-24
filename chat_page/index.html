@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chating Window</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <section class="msger">
+        <header class="msger-header">
+            <div class="msger-header-title">
+                Chat Window
+
+            </div>
+            <div class="msger-header-options">
+                <div class="msger-inputarea">
+                    <input type="text" class="msger-input" id="chat-name" placeholder="Chat Name...">
+                    <button type="submit" class="msger-send-btn" id="chat-name-btn" onclick="setChatName()">Set Name</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="msger-chat">
+   
+        </main>
+
+        <div class="msger-inputarea">
+            <input type="text" class="msger-input" id="msger-input" placeholder="Enter your message...">
+            <button type="submit" class="msger-send-btn" id="msger-send-btn" onclick="onSendButtonClick()">Send</button>
+        </div>
+    </section>
+
+    <script>
+        window.onload = () => { console.log('Loading complite'); };
+    </script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
